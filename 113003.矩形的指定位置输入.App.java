@@ -9,8 +9,8 @@ public class App {
 		array2d[row][column]=value;
 		
 		for (int rowrow = 0; rowrow < array2d.length; rowrow++) {
-			for (int columtow = 0; columtow < array2d.length; columtow++) {
-				System.out.print(array2d[rowrow][columtow]+" ");
+			for (int columnn = 0; columnn < array2d.length; columnn++) {
+				System.out.print(array2d[rowrow][columnn]+" ");
 			}
 			System.out.println();
 		}
